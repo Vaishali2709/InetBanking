@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="inetbanking">
+
+<listeners>
+
+<listener class-name="com.inetbanking.utilities.Reporting"/>
+</listeners>
+<test name="BankingApp Test">
+<parameter name="browser" value="firefox"/>
+<classes>
+
+ <class name="com.inetbanking.testCases.TC_LoginTest_TC001"/>
+<!-- <class name="com.inetbanking.testCases.TC_LoginDDT_TC002"/>-->
+</classes>
+
+
+
+
+</test>
+
+
+
+
+</suite>
